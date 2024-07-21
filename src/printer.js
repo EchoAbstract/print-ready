@@ -58,7 +58,8 @@ function createPuppeteerOptions() {
         args: [
             "--disable-dev-shm-usage",
             "--export-tagged-pdf",
-            "--allow-file-access-from-files"
+            "--allow-file-access-from-files",
+            "--no-sandbox"
         ],
         ignoreHTTPSErrors: true
     };
